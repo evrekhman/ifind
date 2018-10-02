@@ -4,5 +4,5 @@ return array(
 			'host' => 'localhost',
 			'dbname' => 'films',
 			'user' => 'films',
-			'password' => 'visacard2',
+			'password' => '',
 );
