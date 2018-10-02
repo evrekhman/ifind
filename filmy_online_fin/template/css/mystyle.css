@@ -1,0 +1,174 @@
+.col-md-3.col-sm-6.col-xs-6 {
+    width: 292px;
+    height: 530px;
+}
+#hei{
+    height: 400px;
+}
+button#zaebal {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 2050;
+}
+
+
+
+
+
+#pl{
+    z-index: 1050;
+    width:100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left:0;
+
+}
+.container {
+    
+    position: relative;
+}
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+    position: absolute;
+}
+#siz {
+    
+    height:  360px;
+}
+
+.col-md-3.col-sm-4 {
+    margin-bottom: 5%;
+}
+
+.margin-bottom-50 {
+    overflow: scroll;
+    height: 100px;
+    overflow: hidden;
+}
+
+.label-danger {
+    white-space: normal;
+}
+
+.vidjit {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+.pag {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sp{
+    width: 100%;
+}
+
+/*кабинет*/
+
+  .topPanel {
+    display: table;
+    width: 100%;
+}
+div#nameAdmin {
+    display: table-cell;
+}
+div#togglePars {
+    display: table-cell;
+}
+div#toggleSlaid {
+    display: table-cell;
+}
+   
+   
+   .parsTable {
+        display: table;
+        width: 100%;
+    }
+    .parsCollum {
+        display: table-cell;
+        width: 25%;
+        border-right: 2px solid black;
+    }
+    .parsCollum2 {
+        display: table-cell;
+        width: 25%;
+        border-right: 2px solid black;
+    }
+    .parsCollum3 {
+        display: table-cell;
+        width: 25%;
+        border-right: 2px solid black;
+    }
+    .parsCollum4 {
+        display: table-cell;
+        width: 25%;
+        border-right: 2px solid black;
+    }
+    .upper.margin-bottom-20 {
+            font-size: 20px;
+        }
+
+
+/*кабинет конец*/    
+@media (max-width: 450px) { 
+    .home-trending .row > [class*="col-"]{
+        width:!important;
+        
+    }
+    .mobill{
+        height:350px;
+    }
+
+    .mobill2{
+        height:200px;
+        margin-bottom: 5%;
+    }
+    .product-name{
+        margin-top: 10px;
+    }
+    #siz {
+        
+        height:  360px;
+    }
+
+    #siz2 {
+        height: 160px;
+    }
+
+
+    .margin-bottom-50{
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+
+ }
+
+ @media (min-width: 768px) and (max-width: 992px) { 
+    .mobill{
+        height:450px;
+    }
+
+}
+
+@media (min-width: 992px){ 
+    .mobill{
+        height:550px;
+    }
+    .mobill2{
+        height:450px;
+        margin-bottom: 5%;
+    }
+
+}

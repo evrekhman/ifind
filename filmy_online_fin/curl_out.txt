@@ -1,0 +1,5 @@
+* Rebuilt URL to: 938600/
+* Hostname was NOT found in DNS cache
+*   Trying 0.14.82.104...
+* Immediate connect fail for 0.14.82.104: Invalid argument
+* Closing connection 0

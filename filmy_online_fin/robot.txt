@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /api/
+Disallow: /alive/
+Disallow: /admin/
+Disallow: /player/
+
+Host: filmy-online.cc
+Sitemap: http://filmy-online.cc/sitemap.xml
